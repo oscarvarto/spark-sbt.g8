@@ -12,7 +12,7 @@ sparkComponents ++= Seq("sql")
 
 libraryDependencies ++= Seq(
   "com.github.mrpowers" % "spark-daria" % "v0.26.0",
-  "com.github.mrpowers" % "spark-fast-tests" % "v0.26.0" % "test",
+  "com.github.mrpowers" % "spark-fast-tests" % "v0.16.0" % "test",
   "org.scalatest" %% "scalatest" % "3.2.0-SNAP10" % "test"
 )
 
