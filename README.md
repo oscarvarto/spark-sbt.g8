@@ -4,15 +4,15 @@ A [Giter8](https://github.com/foundweekends/giter8) template for Spark SBT appli
 
 ## Usage
 
-1. Install Giter8 with Homebrew: `brew update && brew install giter8`
+1. Start the app generation wizard: `sbt new oscarvarto/spark-sbt.g8`
 
-2. Start the app generation wizard: `g8 MrPowers/spark-sbt.g8`
+2. Fill out the project properties on the command line
 
-3. Fill out the project properties on the command line
+3. Run the tests to make sure the project was generated correctly.
+   `cd` into the top level project directory and then run `sbt test`.
 
-4. Run the tests to make sure the project was generated correctly.  `cd` into the top level project directory and then run `sbt test`.
-
-5. (optional) run the shell scripts to add the log4j.properties file and additional options to the `build.sbt` file
+4. (optional) run the shell scripts to add the log4j.properties file and additional options to the
+   `build.sbt` file
 
 ![giter8 gif](giter8.gif "giter8 Screenshot")
 

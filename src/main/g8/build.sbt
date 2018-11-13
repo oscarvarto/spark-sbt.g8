@@ -10,10 +10,11 @@ sparkVersion := "$sparkVersion$"
 
 sparkComponents ++= Seq("sql")
 
-libraryDependencies += "com.github.mrpowers" % "spark-daria" % "v2.3.0_0.18.0"
-
-libraryDependencies += "com.github.mrpowers" % "spark-fast-tests" % "v2.3.0_0.7.0" % "test"
-libraryDependencies += "org.scalatest" %% "scalatest" % "3.0.1" % "test"
+libraryDependencies ++= Seq(
+  "com.github.mrpowers" % "spark-daria" % "v0.26.0",
+  "com.github.mrpowers" % "spark-fast-tests" % "v0.26.0" % "test",
+  "org.scalatest" %% "scalatest" % "3.2.0-SNAP10" % "test"
+)
 
 // test suite settings
 fork in Test := true
